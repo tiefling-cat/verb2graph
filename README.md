@@ -6,10 +6,10 @@ For more information, see http://web-corpora.net/wsgi3/ru-verbs/verb2graph
 * python 3.4+
 * ipython/jupyter notebook
 * scipy
-• numpy
-• matplotlib
-• gensim
-• networkx
+* numpy
+* matplotlib
+* gensim
+* networkx
 
 ## Setup and usage
 1. Clone this repository or just download and unzip it.
