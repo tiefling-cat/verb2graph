@@ -5,7 +5,7 @@ Here is a tool for presenting word2vec models as graphs using networkx library.
 The work is done as a part of VerbNet project developed at *Higher School of Economics, Moscow, Philology department, master's programme [Computational Linguistics](https://www.hse.ru/en/ma/ling/).* For further information on the project, visit http://web-corpora.net/wsgi3/ru-verbs/
 
 ### What's that?
-Data-driven approach to populating synset base has many faces. And the first one we tried is to create a proto semantic network out of a word2vec model, which is essentially a distributed semantic model for words with its dimension reduced to a reasonable number without losing the distances. The general idea is as follows:
+We're making a [Princeton](https://wordnet.princeton.edu/)-like lexicon of Russian verbs, and we are set to get the best of both data-driven and lexicography-based approaches. Data-driven approach to populating synset base has many faces. And the first one we tried is to create a proto semantic network out of a word2vec model, which is essentially a distributed semantic model for words with its dimension reduced to a reasonable number without losing the distances. The general idea is as follows:
 
 1. Take a word2vec model trained by Andrey Kutuzov.
 2. Either fix a threshold T or a number of most similar words N.
@@ -36,3 +36,8 @@ You can check out the [initial report](http://web-corpora.net/wsgi3/ru-verbs/sta
 ## License notes
 `community.py` is a module developed by third-party developers and is only placed here for your convenience
 as it was originally written in python2 and had to be converted in order to work with python3 notebook.
+
+## Related repos
+You can also:
+* [Parse yourself some synsets from synonym dictionary](https://github.com/tiefling-cat/bparser)
+* [Get yourself a tool to predict aspect of Russian verbs](https://github.com/tiefling-cat/guessing-aspect)
